@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--gray);
+  display: flex;
+  width: 100wh;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginButton {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 9px;
+  background-color: var(--darkBlue);
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #163d6f;
+}
